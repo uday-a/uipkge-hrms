@@ -5,6 +5,8 @@ the [uipkge](https://uipkge.dev) UI registry. It is a polished, realistic consum
 the registry's primitives and blocks — not a real product. **Mock data, mock auth, no
 backend.** Every page is a copy-paste starting point for a real HR app.
 
+**Live:** [uipkge-hrms-nuxt-template.uipkge.dev](https://uipkge-hrms-nuxt-template.uipkge.dev)
+
 - **Framework:** Nuxt 4 + Vue 3 (Composition API, `<script setup>`)
 - **UI:** shadcn-vue primitives from the `@uipkge` registry, on Reka UI
 - **Styling:** Tailwind v4 with OKLCH design tokens
