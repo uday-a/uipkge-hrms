@@ -22,6 +22,9 @@ export default defineNuxtConfig({
     head: {
       htmlAttrs: { lang: 'en' },
       title: 'uipkge HRMS — Vue 3 + Nuxt 4 reference template',
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+      ],
       meta: [
         { name: 'description', content: 'Reference HRMS template built end-to-end on the uipkge UI registry. Mock data, mock auth — copy any page as a starting point.' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' },
