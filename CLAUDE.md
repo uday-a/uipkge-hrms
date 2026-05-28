@@ -20,7 +20,7 @@ npm run generate                         # static prerender → .output/public (
 
 - **Nuxt 4** with `components: [{ path: '~/components', pathPrefix: false }]` — `<AppSidebar />` works without folder prefix. Don't add prefixes.
 - **Tailwind v4** via `@uipkge/tailwind` OKLCH tokens. Use tokens, not hardcoded hex.
-- **shadcn-vue** registry config in `components.json`; `@uipkge` registry resolves to `https://uipkge.dev/r/{name}.json`.
+- **shadcn-vue** registry config in `components.json`; `@uipkge` registry resolves to `https://uipkge.dev/r/nuxt/{name}.json`.
 - **State**: Pinia is **not** wired (tripped an SSR error). Use `useState` + composables.
 
 ## SSR-sensitive patterns

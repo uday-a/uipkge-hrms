@@ -117,7 +117,7 @@ npx shadcn-vue@latest add @uipkge/<name> -y
 ```
 
 The bootstrap tokens, theme, and `cn()` utility came from `@uipkge/init`. Registry
-config lives in `components.json`; `@uipkge` resolves to `https://uipkge.dev/r/{name}.json`.
+config lives in `components.json`; `@uipkge` resolves to `https://uipkge.dev/r/nuxt/{name}.json`.
 
 ---
 
